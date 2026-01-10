@@ -19,7 +19,7 @@ const Navbar = () => {
                 <div className="flex justify-between h-20"> {/* Reduced height slightly for better prop */}
                     <div className="flex items-center">
                         <Link to="/" className="flex-shrink-0 flex items-center gap-2">
-                            <img src="/download.png" alt="alphaBlog Logo" className="w-10 h-10 rounded-lg object-cover" />
+                            <img src={import.meta.env.BASE_URL + "download.png"} alt="alphaBlog Logo" className="w-10 h-10 rounded-lg object-cover" />
                             <span className="font-bold text-xl tracking-tight bg-clip-text text-transparent bg-gradient-to-r from-primary to-secondary">
                                 alphaBlog
                             </span>
