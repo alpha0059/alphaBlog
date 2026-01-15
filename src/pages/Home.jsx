@@ -27,7 +27,7 @@ const Home = () => {
     useEffect(() => {
         const imageInterval = setInterval(() => {
             setCurrentImageIndex((prev) => (prev + 1) % images.length);
-        }, 5000);
+        }, 20000); // Increased to 20 seconds
 
         const textInterval = setInterval(() => {
             setTextIndex((prev) => (prev + 1) % texts.length);
